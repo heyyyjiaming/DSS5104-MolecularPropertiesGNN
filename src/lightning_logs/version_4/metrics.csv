@@ -1,3 +1,0 @@
-epoch,step,test_mean_auc,test_recall_task_0,test_recall_task_1,test_recall_task_10,test_recall_task_11,test_recall_task_2,test_recall_task_3,test_recall_task_4,test_recall_task_5,test_recall_task_6,test_recall_task_7,test_recall_task_8,test_recall_task_9,val_mean_auc
-0,0,,,,,,,,,,,,,,0.827231764793396
-0,0,0.8391542434692383,0.53125,0.6666666865348816,0.6666666865348816,0.7894737124443054,0.6623376607894897,0.4444444477558136,0.395061731338501,0.8529411554336548,0.5882353186607361,0.6304348111152649,0.774193525314331,0.800000011920929,
