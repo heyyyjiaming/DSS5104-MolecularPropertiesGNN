@@ -1,5 +1,15 @@
 # DSS5104-MolecularPropertiesGNN
 
+
+# Candidate Model
+## 1. Traditional ML
+* XGBoost
+* LightGBM
+## 2. Graph Neural Network
+* GCN
+* D-MPNN
+* RNN
+
 # GCN主流程
 
 
