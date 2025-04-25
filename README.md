@@ -23,7 +23,7 @@ In this project, we systematically implements both classical machine learning an
 * D-MPNN
 * RNN
 <br>
-<b>In this project, we also explored enhanced versions of the base model to further improve its discriminative capability beyond just AUC performance.<b>
+**In this project, we also explored enhanced versions of the base model to further improve its discriminative capability beyond just AUC performance.**
 
 
 ## Summary
@@ -37,6 +37,6 @@ In this project, we systematically implements both classical machine learning an
 | XGBoost                   | 0.80        |
 | LightGBM                  | 0.78        |
 <br>
-Please find the overall analysis in <b>./notebooks/MoleculerPropertiesPrediction.ipynb</b>
+Please find the overall analysis in **./notebooks/MoleculerPropertiesPrediction.ipynb**
 
 
