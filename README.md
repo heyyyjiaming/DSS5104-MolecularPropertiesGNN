@@ -26,7 +26,7 @@ In this project, we systematically implements both classical machine learning an
 <b>In this project, we also explored enhanced versions of the base model to further improve its discriminative capability beyond just AUC performance.<b>
 
 
-## Comaprisons
+## Summary
 | Model                      | Average AUC |
 |---------------------------|-------------|
 | RNN-BiLSTM                | 0.84        |
@@ -36,5 +36,7 @@ In this project, we systematically implements both classical machine learning an
 | GCN with Lightning        | 0.82        |
 | XGBoost                   | 0.80        |
 | LightGBM                  | 0.78        |
+<br>
+Please find the overall analysis in <b>./notebooks/MoleculerPropertiesPrediction.ipynb<b>
 
 
