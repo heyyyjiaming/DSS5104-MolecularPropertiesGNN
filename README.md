@@ -22,7 +22,6 @@ In this project, we systematically implements both classical machine learning an
 * GCN
 * D-MPNN
 * RNN
-<br>
 <b> In this project, we also explored enhanced versions of the base model to further improve its discriminative capability beyond just AUC performance.<b>
 
 
