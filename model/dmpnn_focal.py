@@ -213,23 +213,3 @@ class MPNNModel_FocalLoss(pl.LightningModule):
     
     
 
-
-def compute_best_thresholds(y_true, y_probs, steps=20):
-    thresholds = np.linspace(0.1, 0.9, steps)
-    best_thresholds = []
-    for i in range(y_true.shape[1]):
-        mask = ~np.isnan(y_true[:, i])
-        y_t = y_true[mask, i]
-        y_p = y_probs[mask, i]
-
-        best_f1 = 0
-        best_thresh = 0.5
-        for t in thresholds:
-            pred = (y_p >= t).astype(int)
-            f1 = f1_score(y_t, pred, zero_division=0)
-            if f1 > best_f1:
-                best_f1 = f1
-                best_thresh = t
-        best_thresholds.append(best_thresh)
-    print(f"Best thresholds: {best_thresholds}")
-    return best_thresholds
