@@ -37,6 +37,6 @@ In this project, we systematically implements both classical machine learning an
 | XGBoost                   | 0.80        |
 | LightGBM                  | 0.78        |
 <br>
-Please find the overall analysis in **./notebooks/MoleculerPropertiesPrediction.ipynb**
+Please find the overall analysis in __./notebooks/MoleculerPropertiesPrediction.ipynb__
 
 
