@@ -1,5 +1,0 @@
-dropout: 0.2
-hidden_dim: 256
-learning_rate: 0.001
-mode: classification
-n_tasks: 1
